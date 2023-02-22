@@ -42,9 +42,9 @@ export default function Product({ product }: ProductProps) {
   return (
     <>
     <Head>
-      <title>${product.name}</title>
+      <title>{product.name}</title>
     </Head>
-    
+
       <ProductContainer>
         <ImageContainer>
           <Image src={product.imageUrl} width={520} height={480} alt="" />
